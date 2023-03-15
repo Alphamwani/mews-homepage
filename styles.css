@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(36, 100%, 99%);
+
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.header {
+  display: flex;
+  margin: 10px 5rem;
+  column-gap: 40rem;
+  margin-left: 7rem;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-decoration: none;
+  color: hsl(233, 8%, 79%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 7rem;
+}
+#imgOne {
+  height: 20rem;
+  width: 45rem;
+}
+.divTop {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.divLeft {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.dull {
+  width: 20rem;
+}
+.bold {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+button {
+  color: hsl(36, 100%, 99%);
+  background-color: hsl(5, 85%, 63%);
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-style: none;
+}
+.divRight {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 10px 15px;
+  margin-left: 1.5rem;
+  margin-top: 10px;
+}
+#new {
+  color: hsl(35, 77%, 62%);
+  margin-bottom: 20px;
+}
+.divBottom {
+  display: flex;
+  padding: 5px;
+}
+.divOne {
+  display: flex;
+  flex-direction: row;
+}
+.image1 {
+  height: 7rem;
+  width: 7rem;
+  padding: 10px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.para {
+  color: hsl(233, 8%, 79%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dark {
+  color: hsl(233, 8%, 79%);
+}
